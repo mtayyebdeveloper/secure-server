@@ -182,7 +182,7 @@ export const ContextAPI = ({ children }) => {
         },
       })
       .then((response) => {
-        if (response.statusText == "OK") {
+        if (response.status == 200) {
           setalltodoes(response.data.data);
         } else {
           console.log(response);
