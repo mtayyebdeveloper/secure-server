@@ -11,7 +11,7 @@ export const ContextAPI = ({ children }) => {
   const [allcontacts, setallcontacts] = useState([]);
   const token = localStorage.getItem("token");
   const [userData, setuserData] = useState({});
-  const API = import.meta.env.VITE_BACKEND_SITE_URL;
+  const API = "https://secure-server-back.onrender.com";
 
   // logout function..............................
   const logout = () => {
