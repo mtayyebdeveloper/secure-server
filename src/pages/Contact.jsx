@@ -32,14 +32,14 @@ function Contact() {
           setmessage("");
           getUserData()
         }else{
-          toast.error(message.data.message);
+          toast.error(message.data);
         }
       })
       .catch((error) => {
         if (error.response) {
-          toast.error(error.response.data[0].message);
+          toast.error(error.response.data);
         } else {
-          console.log(error);
+          console.log("errorsss",error);
         }
       });
   };

@@ -12,12 +12,12 @@ function Footer() {
               class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
             >
               <img
-                src="https://flowbite.com/docs/images/logo.svg"
+                src=".././public/list.png"
                 class="h-8"
                 alt="Flowbite Logo"
               />
               <span class="self-center text-2xl font-semibold whitespace-nowrap">
-                Flowbite
+                Secure Data
               </span>
             </Link>
             <ul class="flex flex-wrap items-center mb-6 text-sm font-medium sm:mb-0">
