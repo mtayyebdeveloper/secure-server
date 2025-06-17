@@ -44,7 +44,7 @@ function Register() {
       })
       .catch((error) => {
         if (error.response.data) {
-          toast.error(error.response.data[0].message);
+          toast.error(error.response.data.message);
         } else {
           console.log(error);
         }
